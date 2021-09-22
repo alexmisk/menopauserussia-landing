@@ -1261,6 +1261,10 @@ html {
   margin-right: auto;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -1472,6 +1476,10 @@ html {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .font-effra {
   font-family: Effra;
 }
@@ -1583,6 +1591,10 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
