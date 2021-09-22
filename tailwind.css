@@ -1269,6 +1269,10 @@ html {
   margin-top: 5rem;
 }
 
+.mt-72 {
+  margin-top: 18rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -1299,6 +1303,10 @@ html {
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-screen-md {
+  max-width: 768px;
 }
 
 .max-w-screen-xl {
@@ -1406,6 +1414,10 @@ html {
   border-bottom-width: 2px;
 }
 
+.border-none {
+  border-style: none;
+}
+
 .border-red-800 {
   --tw-border-opacity: 1;
   border-color: rgba(153, 27, 27, var(--tw-border-opacity));
@@ -1414,6 +1426,16 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+.bg-blue-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(239, 246, 255, var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
 }
 
 .bg-neutral {
@@ -1429,6 +1451,14 @@ html {
   --tw-bg-opacity: 0.9;
 }
 
+.bg-opacity-95 {
+  --tw-bg-opacity: 0.95;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -1439,6 +1469,10 @@ html {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-4 {
