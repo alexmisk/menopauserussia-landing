@@ -1517,8 +1517,8 @@ html {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
 
-.to-gray-300 {
-  --tw-gradient-to: #d1d5db;
+.to-gray-200 {
+  --tw-gradient-to: #e5e7eb;
 }
 
 .bg-cover {
