@@ -1525,6 +1525,10 @@ html {
   background-size: cover;
 }
 
+.bg-fixed {
+  background-attachment: fixed;
+}
+
 .fill-current {
   fill: currentColor;
 }
