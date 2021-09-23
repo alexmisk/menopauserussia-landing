@@ -1463,12 +1463,30 @@ html {
   border-bottom-left-radius: 0px;
 }
 
+.border-t-2 {
+  border-top-width: 2px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-none {
   border-style: none;
+}
+
+.border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color: rgba(243, 244, 246, var(--tw-border-opacity));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
 }
 
 .border-red-800 {
@@ -1565,6 +1583,10 @@ html {
   padding-bottom: 18rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1600,6 +1622,11 @@ html {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-lg {
