@@ -1572,9 +1572,9 @@ html {
   padding-bottom: 2.5rem;
 }
 
-.py-72 {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+.py-64 {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
 }
 
 .pt-3 {
@@ -1819,6 +1819,11 @@ html {
   .lg\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .lg\:py-72 {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
   }
 
   .lg\:text-left {
