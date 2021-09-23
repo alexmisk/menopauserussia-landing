@@ -1266,23 +1266,23 @@ html {
   background-color: hsla(var(--b1)/var(--tw-bg-opacity,1));
 }
 
-.btn-lg {
-  height: 4rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.btn-md {
+  height: 3rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
   line-height: 2;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  min-height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-height: 3rem;
 }
 
-.input-lg {
-  height: 4rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.input-md {
+  height: 3rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
   line-height: 2;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .absolute {
@@ -1314,12 +1314,8 @@ html {
   margin-top: 1.25rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-72 {
-  margin-top: 18rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mb-5 {
@@ -1342,8 +1338,8 @@ html {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-14 {
+  height: 3.5rem;
 }
 
 .w-full {
@@ -1559,6 +1555,10 @@ html {
   padding: 1rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -1573,9 +1573,9 @@ html {
   padding-right: 2.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-72 {
@@ -1634,6 +1634,11 @@ html {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1647,11 +1652,6 @@ html {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-semibold {
@@ -1773,13 +1773,72 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:btn-lg {
+    height: 4rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    line-height: 2;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    min-height: 4rem;
+  }
+
+  .lg\:input-lg {
+    height: 4rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    line-height: 2;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:float-left {
+    float: left;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:mt-72 {
+    margin-top: 18rem;
+  }
+
   .lg\:h-20 {
     height: 5rem;
+  }
+
+  .lg\:p-10 {
+    padding: 2.5rem;
   }
 
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
