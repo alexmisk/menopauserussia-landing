@@ -1137,13 +1137,6 @@ html {
   }
 }
 
-.footer-title {
-  font-weight: 700;
-  margin-bottom: .5rem;
-  opacity: .5;
-  text-transform: uppercase;
-}
-
 .label a:hover {
   --tw-text-opacity: 1;
   color: hsla(var(--bc)/var(--tw-text-opacity,1));
@@ -1422,10 +1415,6 @@ html {
   list-style-type: disc;
 }
 
-.grid-flow-col {
-  grid-auto-flow: column;
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1543,10 +1532,6 @@ html {
   background-attachment: fixed;
 }
 
-.fill-current {
-  fill: currentColor;
-}
-
 .p-0 {
   padding: 0px;
 }
@@ -1566,6 +1551,11 @@ html {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .px-10 {
@@ -1815,6 +1805,11 @@ html {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .lg\:py-20 {
